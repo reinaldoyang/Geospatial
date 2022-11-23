@@ -161,21 +161,6 @@ left2=extract_coord2[52:117]
 total1=extract_coord4+extract_coord3+left2+left1+right1+right2
 center_point3=averageOfList(total1)
 
-# angka=[]
-# for x in extract_coord2:
-#     angka.append(x[0])
-# print(angka.index(145.9792))
-# Create the map and add the line
-
-# print(coordinates_angle)
-# print(coordinates_angle.shape)
-# for i in range(len(coordinates_angle)):
-#     np.sort(coordinates_angle[1].any())
-
-
-# center_point=[]
-# for item in area1:
-#     print(item)
 
 # zipped into one
 long_lat = zip(long,lat)
@@ -184,23 +169,9 @@ zipped_list = list(long_lat)
 array_order=sorted(zipped_list)
 # print(array_order)
 
-# find_index=array_order.index((132.0074,20.2257))
-# print(find_index)
-# print(array_order)
 
 small_array=[array_order[212:215],array_order[218:219],array_order[220:223],array_order[230:231],array_order[234:238],array_order[240:243],array_order[250:252],array_order[254:257],array_order[260:261],array_order[266:269],array_order[272:275]]
-# print(small_array)
-# print(small_array[0])
-# print(small_array[1])
-# print(small_array[2])
-# print(small_array[3])
-# print(small_array[4])
-# print(small_array[5])
-# print(small_array[6])
-# print(small_array[7])
-# print(small_array[8])
-# print(small_array[9])
-# print(small_array[10])
+
 
 for i in range(0,len(zipped_list)):
     for j in range(0,len(small_array)):
